@@ -42,6 +42,4 @@ Generate passwords and review their strength.
 
 <img src="https://dj8eg5xs13hf6.cloudfront.net/password-fx/6.png" width="250">
 
-<img src="https://dj8eg5xs13hf6.cloudfront.net/password-fx/7.png" width="250">
-
 <img src="https://dj8eg5xs13hf6.cloudfront.net/password-fx/8.png" width="250">
