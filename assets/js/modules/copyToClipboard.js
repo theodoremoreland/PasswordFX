@@ -1,4 +1,4 @@
-export default (e) => {
+export default async (e) => {
   const element = e.target;
   const passwordElement = document.querySelector("#password");
 
@@ -10,6 +10,6 @@ export default (e) => {
   passwordElement.setSelectionRange(0, 99999); // For mobile devices
 
   // Copy the text inside the text field
-  navigator.clipboard.writeText(passwordElement.value);
+  await navigator.clipboard.writeText(passwordElement.value);
   alert("Copied to clipboard");
 };
