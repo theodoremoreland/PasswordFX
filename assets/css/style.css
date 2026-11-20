@@ -57,7 +57,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: body;
+  font-family: body, sans-serif;
   background-color: var(--quinary-color);
 }
 
@@ -311,7 +311,7 @@ footer {
   align-items: center;
   min-height: 175px;
   width: 100%;
-  font-family: accent;
+  font-family: accent, sans-serif;
   font-size: 1rem;
   text-align: center;
   color: var(--primary-font-color);
@@ -347,6 +347,8 @@ footer {
   color: var(--primary-font-color);
   background-color: transparent;
   border-radius: 6px;
+  margin: 0;
+  padding: 0;
 
   li {
     list-style: none;
@@ -379,12 +381,11 @@ footer {
 .btn {
   background-color: var(--tertiary-color);
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 2px 8px 0px;
   color: whitesmoke;
   display: inline-block;
   font-size: 1rem;
-  font-family: body;
+  font-family: body, sans-serif;
   line-height: 22px;
   padding: 14px 34px;
   text-align: center;

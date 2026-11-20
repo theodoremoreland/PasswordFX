@@ -36,6 +36,7 @@
       >
         <svg
           id="github-icon"
+          aria-label="GitHub Icon"
           width="24"
           height="24"
           viewBox="0 -3.5 256 256"
@@ -58,7 +59,7 @@
     <main class="wrapper">
       <div class="card">
         <div class="card-body">
-          <span id="warnings-container"><mark id="warnings">testts</mark></span>
+          <span id="warnings-container"><mark id="warnings">...</mark></span>
           <textarea
             id="password"
             placeholder="Your password"
@@ -79,7 +80,7 @@
                 aria-label="count"
                 name="count"
                 min="4"
-                max="128"
+                max="100"
                 value="16"
                 type="range"
                 className="range"
@@ -87,7 +88,7 @@
             </label>
             <span id="count-display">16 characters</span>
           </div>
-          <div class="checkbox-container">
+          <ul class="checkbox-container">
             <li>
               <label htmlFor="lowercase" className="checkbox-label">
                 <input
@@ -140,7 +141,7 @@
                 Symbols
               </label>
             </li>
-          </div>
+          </ul>
           <button id="generate" class="btn">Generate new password</button>
         </div>
       </div>
